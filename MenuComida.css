@@ -1,0 +1,200 @@
+/*Sección del encabezado*/
+
+/*Fondo del encabezado y tamaño de letras del encabezado*/
+.Banner {
+    width: 100%;
+    background: #D64755;
+    font-size: x-large;
+}
+
+/*Posición, color y tipo de letra del nombre del restaurant*/
+#Restaurant {
+    position: static;
+    float: left;
+    margin-right: 55px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+
+}
+
+/*Posicion y tipo de letra de los textos del encabezado*/
+#Menu {
+    position: fixed;
+    top: 0px;
+    font-style: italic;
+    font-family: Arial;
+}
+
+/*Posición y color del texto "Inicio"*/
+#MHome {
+    position: static;
+    float: left;
+    margin-right: 25px;
+    margin-top: 45px;
+    color: white;
+}
+
+/*Posición y color del texto "Menú"*/
+#MComida {
+    position: static;
+    float: left;
+    margin-right: 25px;
+    margin-top: 45px;
+    color: white;
+}
+
+/*Posición y color del texto "Galería"*/
+#MGaleria {
+    position: static;
+    float: left;
+    margin-right: 25px;
+    margin-top: 45px;
+    color: white;
+}
+
+/*Posición y color del texto "Promociones"*/
+#MPromo {
+    position: static;
+    float: left;
+    margin-right: 25px;
+    margin-top: 45px;
+    color: white;
+}
+
+
+ 
+/*Seccion del Submenú de la pagina menú*/
+
+/*
+  Posición, tamño de fuente, color de fondo, alineacion de texto
+  y tipo de funete del submenú de navegación
+*/
+#NavMenu {
+    position: fixed;
+    top: 150px;
+    left: 5%;
+    width: 150px;
+    font-size: large;
+    text-align: center;
+    background: #F9B81A;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/*
+  Posición, dimenciones, color de fuente, color de fondo
+  y tio de funete del texto "Menú"
+*/
+#Sub {
+    height: 50px;
+    margin-top: 0%;
+    color: #ECE9E0;
+    background: #951F1F;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Color de texto del texto "Platillos"*/
+#OpPlatillo {
+    color: #69696C;
+}
+
+/*Color de texto del texto "Postres"*/
+#OpPostre {
+    color: #69696C;
+}
+
+/*Color de texto del texto "Bebidas"*/
+#OpBebida {
+    color: #69696C;
+}
+
+
+
+/*Sección de las tablas del menú*/
+
+
+/*Posicion de las tablas del menú*/
+.Menu {
+    margin-left: 20%;
+    margin-top: 150px;
+}
+
+/*Color de fondo y tipo de letra de las tablas del menú*/
+.TMenu {
+    background: #faab73;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Tipo de letra de las definiciones de los productos del menú*/
+.Def{
+    font-style: italic;
+}
+
+/*Dimeciones de las imagenes de los productos del menú*/
+.Muestra {
+    width: 90px;
+    height: 90px;
+}
+
+/*
+  Tipop de bordes, tamaño de bordes, tamaño de fuente y color de fuente
+  de la tabla Platillos
+*/
+#Platillos {
+    border-collapse: separate;
+    border-spacing: 50px 30px;
+    font-size: x-large;
+    color: #3B393C;
+}
+
+/*
+  Tipop de bordes, tamaño de bordes, tamaño de fuente y color de fuente
+  de la tabla Postres
+*/
+#Postres {
+    border-collapse: separate;
+    border-spacing: 50px 30px;
+    font-size: x-large;
+    color: #3B393C;
+}
+
+/*
+  Tipop de bordes, tamaño de bordes, tamaño de fuente y color de fuente
+  de la tabla Bebidas
+*/
+#Bebidas {
+    border-collapse: separate;
+    border-spacing: 50px 30px;
+    font-size: x-large;
+    color: #3B393C;
+
+}
+
+
+
+
+/*Seccion pie de página*/
+
+/*
+  Posicion, tamaño de funete, alineación de fuente y color de fuente
+  del pie de página
+*/
+#PiePagina{
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: #3B393C;
+}
+
+
+
+/*Seccion del cuerpo Principal*/
+
+/*
+  Color de fondo y margenes del cuerpo principal
+*/
+body {
+    background: #F59C5D;
+    margin: 0%;
+}

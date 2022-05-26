@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="MenuComida.css">
+    <title>Comida</title>
+</head>
+
+<body>
+
+    <!--Encabezado que que permite navergar dentro del sitio-->
+    <div id="Menu" class="Banner">
+        <a href="index.html">
+            <h1 id="Restaurant">Sakura Fubuki</h1>
+        </a>
+        <a href="index.html">
+            <p id="MHome">Inicio</p>
+        </a>
+        <a href="MenuComida.html">
+            <p id="MComida">Menú</p>
+        </a>
+        <a href="Galeria.html">
+            <p id="MGaleria">Galeria</p>
+        </a>
+        <a href="Promociones.html">
+            <p id="MPromo">Promociones</p>
+        </a>
+    </div>
+
+    <!--Submenu que permite navegar entre las diferentes secciones del menu de comida-->
+    <div id="NavMenu">
+        <h2 id="Sub">Menú</h2>
+        <a href="#Platillos">
+            <p id="OpPlatillo">Platillos</p>
+        </a>
+        <a href="#Postres">
+            <p id="OpPostre">Postres</p>
+        </a>
+        <a href="#Bebidas">
+            <p id="OpBebida">Bebidas</p>
+        </a>
+
+    </div>
+
+    <!--Contiene Una tabla con los platillos ofrecidos, una breve descripcion de cada uno y su respectivo precio-->
+    <div class="Menu">
+        <table id="Platillos" class="TMenu">
+            <caption><strong>Platillos</strong></caption>
+
+            <tr>
+                <td></td>
+                <td><strong>Platillo</strong></td>
+                <td><strong>Precio</strong></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Platillo01.jpg" class="Muestra">
+                </td>
+
+                <td>
+                    <dt>Tuna Truffle Sashimi (90 gr)</dt>
+                    <dd class="Def">
+                        Atun Aleta Azul, Salmón Tasmania,Kampachi Japonés, salsa kizakori, aceite de trufa
+                    </dd>
+                </td>
+                <td>$389</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Platillo02.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Smoked Tuna Tartar (70 gr)</dt>
+                    <dd class="Def">
+                        Atún aleta azul, ponzu oroshi, aguacate, tobico negro, cilantro criollo
+                    </dd>
+                </td>
+                <td>$309</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Platillo03.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Bluefin Tuna (80 gr)</dt>
+                    <dd class="Def">
+                        Tartar de atún aleta azúl, crispy rice, aceite de trufa, spicy mayo
+                    </dd>
+                </td>
+                <td>$319</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Platillo04.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Hamachi Ceviche (90 gr)</dt>
+                    <dd class="Def">
+                        Hamachi japonés, mix de cebolla, cilantro, ponzu jengibre y ajo, togarashi
+                    </dd>
+                </td>
+                <td>$349</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Platillo05.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Sesame Avocado Salad (230 gr)</dt>
+                    <dd class="Def">
+                        Aguacate, elote baby, mix de mizunas y albahaca morada, aliño de sésamo
+                    </dd>
+                </td>
+                <td>$289</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Platillo06.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Piedra de Wagyu A5 japonés (75 gr)</dt>
+                    <dd class="Def">
+                        Láminas de Wagyu A5 japonés
+                    </dd>
+                </td>
+                <td>$1,398</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Platillo07.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Pulpo Grill (150 gr)</dt>
+                    <dd class="Def">
+                        Pulpo, mantequilla de miso, lemongrass, crispy garlic
+                    </dd>
+                </td>
+                <td>$269</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Platillo08.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Yakitori de Pollo (2)(150 gr)</dt>
+                    <dd class="Def">
+                        Pollo orgánico marinado, salsa ginger miso, ajonjolí
+                    </dd>
+                </td>
+                <td>$198</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Platillo09.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Sashimi de Filete (90 gr)</dt>
+                    <dd class="Def">
+                        Filete de res prime corte fino, shallot, aderezo balsámico, ensalada fresca y jitomate cherry
+                    </dd>
+                </td>
+                <td>$429</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="img/Menu/Platillo10.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Temaki Umi (45 gr)</dt>
+                    <dd class="Def">
+                        Atún aleta azul, camarón, espárrago, aguacate, bubu arare, salsa sweet mango
+                    </dd>
+                </td>
+                <td>$229</td>
+            </tr>
+
+        </table>
+    </div>
+
+
+    <!--Contiene una tabla con los postres, una breve descripcion de ellos y su precio-->
+    <div class="Menu">
+        <table id="Postres" class="TMenu">
+            <caption><strong>Postres</strong></caption>
+
+            <tr>
+                <td></td>
+                <td><strong>Postre</strong></td>
+                <td><strong>Precio</strong></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Postre01.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Mochi (orden 4 piezas)</dt>
+                    <dd class="Def">
+                        Bolitas de pasta de arroz dulce
+                    </dd>
+                </td>
+                <td>$55</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Postre02.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Anmitsu (330 gr)</dt>
+                    <dd class="Def">
+                        Gelatina de agar con anko, castañas y fruta(piña, cereza, durazno)
+                    </dd>
+                </td>
+                <td>$73</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Postre03.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Dango (Orden 4 piezas)</dt>
+                    <dd class="Def">
+                        Bolitas de arroz dulce en un palillo
+                    </dd>
+                </td>
+                <td>$67</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Postre04.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Daifuku (Orden 4 piezas)</dt>
+                    <dd class="Def">
+                        Bolitas de pasta de arroz dulce rellenas de anko
+                    </dd>
+                </td>
+                <td>$65</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Postre05.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Castella (revanada 200gr)</dt>
+                    <dd class="Def">
+                        Bizcocho de harina de trigo, huevo, miel, vainilla y mantequilla.
+                    </dd>
+                </td>
+                <td>$82</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Postre06.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Oshiruko (100 ml)</dt>
+                    <dd class="Def">
+                        Sopa fria o calinete de anko.
+                    </dd>
+                </td>
+                <td>$95</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Postre07.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Manju(Orden 3 piezas)</dt>
+                    <dd class="Def">
+                        Bolitas de masa de harina de trigo al vapor rellenas de anko
+                    </dd>
+                </td>
+                <td>$75</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Postre08.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Sakuramochi(Orden 2 piezas)</dt>
+                    <dd class="Def">
+                        Mochi rosado rellno de anko y envuelto en un hoja de sakura encurtida.
+                    </dd>
+                </td>
+                <td>$95</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="img/Menu/Postre09.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt> Hakuto Jelly (138 gr)</dt>
+                    <dd class="Def">
+                        Gelatina de jugo de melocotón hakuto y agua de manantial.
+                    </dd>
+                </td>
+                <td>$130</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <!--Contiene una tabla con las bebidas y sus respectivos precios-->
+    <div class="Menu">
+        <table id="Bebidas" class="TMenu">
+            <caption><strong>Bebidas</strong></caption>
+
+            <tr>
+                <td></td>
+                <td><strong>Bebida</strong></td>
+                <td><strong>Precio</strong></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Bebida01.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Calpis(1L)</dt>
+                    <dd class="Def">
+                        Bebida no carbonatada hecha de agua, leche descremada y ácido láctico.
+                    </dd>
+                </td>
+                <td>
+                    $80
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Bebida02.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Ramure(200 ml)</dt>
+                    <dd class="Def">
+                        Bebida gaseosa de diferentes sabores
+                    </dd>
+                </td>
+                <td>
+                    $70
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Bebida03.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Amazake(238 ml)</dt>
+                    <dd class="Def">
+                        Bebida de arroz fermentado
+                    </dd>
+                </td>
+                <td>
+                    $50
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Bebida04.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Té de Matcha (200 ml)</dt>
+                    <dd class="Def">
+                        Té de Matcha
+                    </dd>
+                </td>
+                <td>
+                    $50
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Bebida05.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Gyokuro(200 ml)</dt>
+                    <dd class="Def">
+                        Té verde de la variedad Sencha.
+                    </dd>
+                </td>
+                <td>
+                    $150
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Bebida06.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Té de sakura(200 ml)</dt>
+                    <dd class="Def">
+                        Té de petalos de flores de sakura
+                    </dd>
+                </td>
+                <td>
+                    $60
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Bebida07.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Kinako Mochi (260 ml)</dt>
+                    <dd class="Def">
+                        Bebida elaborada abase de kinako
+                    </dd>
+                </td>
+                <td>
+                    $60
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Bebida08.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Aojiru(150 ml)</dt>
+                    <dd class="Def">
+                        Jugo verde elaborado principalmente de col rizada.
+                    </dd>
+                </td>
+                <td>
+                    $50
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="img/Menu/Bebida09.jpg" class="Muestra">
+                </td>
+                <td>
+                    <dt>Sake(375 ml)</dt>
+                    <dd class="Def">
+                        Vino de arroz fermentado
+                    </dd>
+                </td>
+                <td>
+                    $249
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+    <!---->
+    <div id="PiePagina">
+        <hr>
+        <cite>Ingeniería en Computación</cite>
+        <br>
+        <cite>Alumno: Sergio   Materia: Programación Web 1   Grupo: 2507</cite>
+    </div>
+
+</body>
+
+</html>

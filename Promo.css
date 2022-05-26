@@ -1,0 +1,137 @@
+/*Sección del encabezado*/
+
+/*Fondo del encabezado y tamaño de letras del encabezado*/
+.Banner {
+    width: 100%;
+    background: #D64755;
+    font-size: x-large;
+}
+
+/*Posición, color y tipo de letra del nombre del restaurant*/
+#Restaurant {
+    position: static;
+    float: left;
+    margin-right: 55px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+
+}
+
+/*Posicion y tipo de letra de los textos del encabezado*/
+#Menu {
+    position: fixed;
+    top: 0px;
+    font-style: italic;
+    font-family: Arial;
+}
+
+/*Posición y color del texto "Inicio"*/
+#MHome {
+    position: static;
+    float: left;
+    margin-right: 25px;
+    margin-top: 45px;
+    color: white;
+}
+
+/*Posición y color del texto "Menú"*/
+#MComida {
+    position: static;
+    float: left;
+    margin-right: 25px;
+    margin-top: 45px;
+    color: white;
+}
+
+/*Posición y color del texto "Galería"*/
+#MGaleria {
+    position: static;
+    float: left;
+    margin-right: 25px;
+    margin-top: 45px;
+    color: white;
+}
+
+/*Posición y color del texto "Promociones"*/
+#MPromo {
+    position: static;
+    float: left;
+    margin-right: 25px;
+    margin-top: 45px;
+    color: white;
+}
+
+
+
+/*
+  Posición, color, tipo de fuente, tamaño de fuente y alineacion de la fuente 
+  del texto "Promociones"
+*/
+#BxPromociones {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    color: #3B393C;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+
+/*Seccion de las promociones*/
+
+/*
+  Posicion, dimenciones, alineacion, tamaño de fuente, estilo de fuente, color de fuente
+  y color de fondo de cada promoción
+*/
+.Promo {
+    display: inline-block;
+    width: 400px;
+    margin-right: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    color: #3B393C;
+    background: #C5D96C;
+}
+
+/*Dimenciones de las imagenes en cada promoción*/
+.Img {
+    width: 400px;
+    height: 200px;
+    
+}
+
+/*Tipo de fuente para los nombres de cada promoción*/
+.NPaq {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+
+
+/*Seccion pie de página*/
+
+/*
+  Posicion, tamaño de funete, alineación de fuente y color de fuente
+  del pie de página
+*/
+#PiePagina{
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: #3B393C;
+}
+
+
+
+/*Seccion del cuerpo Principal*/
+
+/*
+  Color de fondo y margenes del cuerpo principal
+*/
+body {
+    background: #B9CB65;
+    margin: 0%;
+}

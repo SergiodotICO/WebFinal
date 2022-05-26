@@ -1,0 +1,196 @@
+/*Sección del encabezado*/
+
+/*Fondo del encabezado y tamaño de letras del encabezado*/
+.Banner {
+    width: 100%;
+    background: #D64755;
+    font-size: x-large;
+}
+
+/*Posición, color y tipo de letra del nombre del restaurant*/
+#Restaurant {
+    position: static;
+    float: left;
+    margin-right: 55px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+
+}
+
+/*Posicion y tipo de letra de los textos del encabezado*/
+#Menu {
+    position: fixed;
+    top: 0px;
+    font-style: italic;
+    font-family: Arial;
+}
+
+/*Posición y color del texto "Inicio"*/
+#MHome {
+    position: static;
+    float: left;
+    margin-right: 25px;
+    margin-top: 45px;
+    color: white;
+}
+
+/*Posición y color del texto "Menú"*/
+#MComida {
+    position: static;
+    float: left;
+    margin-right: 25px;
+    margin-top: 45px;
+    color: white;
+}
+
+/*Posición y color del texto "Galería"*/
+#MGaleria {
+    position: static;
+    float: left;
+    margin-right: 25px;
+    margin-top: 45px;
+    color: white;
+}
+
+/*Posición y color del texto "Promociones"*/
+#MPromo {
+    position: static;
+    float: left;
+    margin-right: 25px;
+    margin-top: 45px;
+    color: white;
+}
+
+
+ 
+/*Sección del contenido principal de la pagina*/
+
+
+/*Posición del contenido principal de la pagina*/
+#Contenido {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*Sección del logo de la página*/
+
+/*Posicion, color, alineacion y dimeciones del logo*/
+#Logo {
+    margin-top: 300px;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background: #E59AB6;
+}
+
+/*Tamaño, color y tipo de fuente del texto del logo*/
+#TxLogo{
+    padding-top: 140px;
+    font-size: 100px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+
+
+/*Sección de la descripción del restaurant*/
+
+/*
+   Posicion, color de fondo, color de texto, tamaño de fuente, alineación de texto
+   y tipo de fuente de la seccion de descripcion del restaurant
+*/
+#Descripcion {
+    margin-top: 300px;
+    background: #E59AB6;
+    color: #3B393C;
+    font-size: x-large;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*Sección de Horarios y contacto*/
+
+/*
+  Posición, color de fondo, color de fuente, tamaño de fuente
+  y tipo de fuente de la seccion Horario y contacto
+*/
+.Datos {
+    margin-top: 200px;
+    background: #E59AB6;
+    color: #3B393C;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Posisicon y tmaño de la tabla Horario*/
+#Horario {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+/*Posición de la tabla Conacto*/
+#Contacto {
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Tamaño de los iconos de la tabla Contacto*/
+.Icon{
+    height: 30px;
+}
+
+
+
+/*Sección de la Ubicación*/
+
+/*
+  Posisción, color de fondo, color de fuente, tamaño de fuente, alineación de fuente
+  y tipo de funete de la seccion Ubicación
+*/
+#Ubicacion {
+    margin-top: 200px;
+    background: #E59AB6;
+    color: #3B393C;
+    font-size: x-large;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Dimeciones del mapa*/
+#Mapa {
+    width: 80%;
+    height: 80%;
+}
+
+
+/*Seccion pie de página*/
+
+/*
+  Posicion, tamaño de funete, alineación de fuente y color de fuente
+  del pie de página
+*/
+#PiePagina{
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: #3B393C;
+}
+
+
+
+/*Seccion del cuerpo Principal*/
+
+/*
+  Color de fondo, imagen de fondo y margenes del cuerpo principal
+*/
+body {
+    background: #AAB2E6;
+    background-image: url(img/Iconos/Fondo.png);
+    margin: 0%;
+}
